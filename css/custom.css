@@ -1,0 +1,804 @@
+body{
+	font-family:verb_light;
+	padding: 0px;
+	margin: 0px;
+    z-index: 1;
+}
+
+
+@font-face{
+    font-family: "DK Buntaro";
+    src: url("../fonts/DK Buntaro.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;    
+}
+
+@font-face{
+    font-family: "Colors of Autumn";
+    src: url("../fonts/Colors Of Autumn.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;    
+}
+
+@font-face{
+    font-family: "Demolition Crack Shadow";
+    src: url("../fonts/Demolition Crack Shadow.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;    
+}
+
+@font-face{
+    font-family: "BEBAS";
+    src: url("../fonts/BEBAS___.TTF") 
+    format("truetype");
+    font-weight: normal;
+    font-style: normal;    
+}
+
+@font-face{
+    font-family: "NEOTERIC∏ - Bold DEMO VERSION";
+    src: url("../fonts/NEOTERIC∏ - Bold DEMO VERSION.ttf") 
+    format("truetype");
+    font-weight: normal;
+    font-style: normal;    
+}
+
+@font-face{
+    font-family: "Neuton-Light";
+    src: url("../fonts/Neuton-Light.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;    
+}
+
+@font-face{
+    font-family: "Ribbons and banners";
+    src: url("../fonts/Ribbons-and-banners.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;    
+}
+
+@font-face{
+    font-family: "Timeless";
+    src: url("../fonts/Timeless.ttf") 
+    format("truetype");
+    font-weight: normal;
+    font-style: normal;    
+}
+
+.nav{
+	width: 1435px;
+	height:70px;
+	background-color: saddlebrown;
+	font-size:12px;
+	color:#000000;
+	font-family:verb_light;
+	position: fixed;
+	top: 0px;
+    margin-top: 20px;
+    z-index: 2;
+}
+
+.inner{
+	width: 100%;
+	margin: 0px auto; 
+}
+
+.navbar{
+    margin-left: 100px;
+}
+
+.nav a{
+	font-family:"NEOTERIC";
+    text-decoration: none;
+	font-size: 17px;
+	color: #FFFFFF;
+	padding: 5px 5px 5px 5px;
+	margin: 20px 25px 0px 56px;
+	display: inline-block;
+	float: left;
+    text-transform: uppercase;
+    height: 28px;
+    position: relative;
+     -webkit-transition: all .5s ease; /* Safari and Chrome */
+    -moz-transition: all .5s ease; /* Firefox */
+    -ms-transition: all .5s ease; /* IE 9 */
+    -o-transition: all 5s ease; /* Opera */
+    transition: all .5s ease;
+}
+
+.nav a:hover{
+     -webkit-transform:scale(1.15); /* Safari and Chrome */
+    -moz-transform:scale(1.15); /* Firefox */
+    -ms-transform:scale(1.15); /* IE 9 */
+    -o-transform:scale(1.15); /* Opera */
+     transform:scale(1.15);
+}
+
+#visit{
+    position: absolute;
+    margin-left: 60px;
+    font-family: "NEOTERIC";
+    font-size: 20px;
+    border: 2px solid;
+    border-color: white;
+    color: white;
+    border-radius: 50px;
+    width: 180px;
+    text-align: center;
+    background-color: black;
+    margin-bottom: 50px;
+}
+#logo{
+    float: left;
+    width: 250px;
+    margin-left: 50px;
+    height: 180px;
+}
+.title{
+    font-family:verb_extrabold;
+    color:#000000;
+    font-size: 30px;
+    margin:18px 0px;
+ 	float:left;
+}
+.highlight{
+    background-color:;
+    font-family:verb_extrabold;
+    color:#FFFFFF;
+    font-size:30px;
+    padding:2px 10px 2px 10px;
+    margin:15px 60px 15px 5px;
+    float:left;
+} 
+
+#home{
+    height: 810px;
+}
+
+.photo{
+    width: 1432px;
+    height: 740px;
+    z-index: -1001;
+    position: relative;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 0px;
+    background-image: url(../images/slideshow1.jpg);
+}
+
+
+
+
+.fadein { 
+    width: 100%;
+    height: 740px; 
+    z-index: -1001;
+}
+
+.fadein img { 
+    box-shadow: 0 0 50px black; 
+    z-index: -1001;
+}
+
+.grey{
+	width:100%;
+	background-color:white;
+	height:770px;
+}
+
+.black{
+	width:100%; 
+	background-color:#000000;
+	color:#ffffff;
+    margin-bottom: px;
+}
+
+.arrow{
+    width: 50px;
+    height: 15px;
+    text-align: center;
+    margin: 40px 0px 0px -80px;
+    display: inline-block;
+    position: absolute;
+    z-index: 1000;      
+}
+
+#discover{
+    font-family: "Colors of Autumn";
+    color: white;
+    position: absolute;
+    text-align: center;
+    line-height: 500px;
+    width: 100%;
+    font-size: 80px;
+    z-index: 1;
+
+}
+
+#yellowstone{
+    font-family: "Ribbons and banners";
+     color: white;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    line-height: 680px;
+    font-size: 150px;
+    z-index: 1;
+        
+}
+
+#arrow1{
+    position: absolute;
+    text-align: center;
+    left: 48%;
+    z-index: 1;
+    margin-top: 635px;
+    opacity: 2;
+    width: 50px;
+    height: 50px;
+     -webkit-animation: Floatingy 3s infinite ease-in-out;
+     -moz-animation: Floatingy 3s infinite ease-in-out;
+    /* Firefox */
+}
+@-webkit-keyframes Floatingy {
+    from {
+        -webkit-transform:translateY(0px);
+    }
+    65% {
+        -webkit-transform:translateY(15px);
+    }
+    to {
+        -webkit-transform: translateY(-0px);
+    }
+}
+
+@-moz-keyframes Floatingy {
+    from {
+        -moz-transform:translateY(0px);
+    }
+    65% {
+        -moz-transform:translateY(15px);
+    }
+    to {
+        -moz-transform: translateY(-0px);
+    }
+}
+
+
+#arrowText{
+    font-family: "NEOTERIC";
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    margin-top: 600px;
+    color: white;
+    font-size: 25px;
+}
+.divider{
+    width: 1442px;
+    height: 100px;
+    margin-top: 30px;
+}
+#about{
+    height: 950px;
+    margin-top: -70px;
+    background-color: white;
+}
+
+.heading{
+    font-family: "Demolition Crack Shadow";
+    text-align: center;
+    line-height: 270px;
+    font-size: 30px;
+    color: black;
+    width: 1420px;
+}
+
+.theDividers{
+    margin-top: -100px;
+    height: 200px;
+}
+.content{
+    box-shadow: 0 0 10px black;
+    width: 315px;
+    height: 415px;
+    margin-left: 75px;
+    margin-top: -80px;
+    margin-bottom: 50px;
+    float: left;
+    font-family: "Neuton-Light";
+    font-size: 17px;
+    padding: 15px 40px;
+    border: 2px solid;
+    border-color: grey;
+    text-align: center;
+}
+
+.content2{
+    width: 400px;
+    height: 446px;
+    margin-left: 980px;
+    box-shadow: 0 0 10px black;
+    margin-bottom: 50px;
+    position: absolute;
+    margin-top: -80px;
+}
+.theContent{
+    margin-top: -130px;
+    margin-left: 0px;
+}
+
+
+.slideshow{
+    width: 300px;
+    height: 180px;
+    text-align: center;
+    margin-top: 10px;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 0 10px black;
+    margin-left: 10px;
+   
+}
+
+
+.calendar{
+    position: absolute;
+    margin-top: -81px;
+    margin-left: 50px;
+    box-shadow: 0 0 10px black;
+    width: 400px;
+    height: 450px;
+}
+
+#history{
+    margin-top: 650px;
+    height: 726px;
+    width: 1432px;
+    background-image: url(../images/historypic.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 0px;
+    box-shadow: 0 0 10px black;
+}
+
+.historyDivide{
+    width: 100%;
+    height: 50px;
+    margin-top: -220px;
+    position: absolute;
+}
+
+.historyDivide2{
+    position: absolute;
+    margin-top: -155px;
+    width: 100%;
+    height: 50px;
+}
+
+.wholeText{
+    font-family: "Neuton-Light";
+    width: 750px;
+    margin-left: 300px;
+    position: absolute;
+    text-align: center;
+    margin-top: 190px;
+    z-index: 1;
+    border: 2px solid;
+    border-color: black;
+    background-color: rgba(255,255,255, .75);
+    padding: 50px 50px;
+    padding-left: 60px;
+}
+.textHistory{
+    text-align: center;
+    padding: 10px 60px;
+    width: 600px;
+    font-size: 20px;
+}
+
+.thehistoryDivide{
+    position: absolute;
+    margin-top: 675px;
+    height: 400px;
+    width: 100%;
+}
+
+.histHeading{
+    width: 1420px;
+    position: absolute;
+    text-align: center;
+    font-family: "Demolition Crack Shadow";
+    line-height: 260px;
+    font-size: 30px;
+}
+
+#video{
+    background-color: white;
+    height: 1000px;
+    width: 1432px;      
+}
+
+.video{
+    margin-left: 300px;
+    position: absolute;
+    margin-top: 190px;
+    box-shadow: 0 0 10px black;
+    width: 853px 
+}
+
+.vidHeading{
+    font-family: "Demolition Crack Shadow";
+    width: 1420px;
+    text-align: center;
+    margin-top: 120px;
+    position: absolute;
+    font-size: 25px;
+}
+
+.vidDivide{
+    width: 100%;
+    height: 200px;
+    margin-top: -80px;
+    position: absolute;
+}
+
+.vidDivide2{
+    position: absolute;
+    margin-top: -15px;
+    width: 100%;
+    height: 200px;
+}
+
+thevidDivide{
+    position: absolute;
+    margin-top: 875px;
+    height: 400px;
+    width: 100%;
+}
+
+#oak1{
+    width: 270px;
+    height: 300px;
+    position: absolute;
+    float: left;
+    margin-top: 250px;
+    margin-left: 30px;
+}
+
+#oak2{
+    width: 270px;
+    height: 300px;
+    position: absolute;
+    margin-left: 1150px;
+    margin-top: 250px;
+}
+
+#moreInfo{
+    position: absolute;
+    width: 100%;
+    height: 800px;
+    margin-top: -300px;
+}
+
+.moreInfo{
+    width: 1420px;
+    text-align: center;
+    position: absolute;
+    font-family: "Demolition Crack Shadow";
+    font-size: 25px;
+    margin-top: 110px;
+}
+
+.theinfoDivide{
+    position: absolute;
+    height: 400px;
+    width: 100%;
+    margin-top: -320px;
+}
+
+.infoDivide{
+    width: 100%;
+    height: 200px;
+    margin-top: -80px;
+    position: absolute;
+}
+
+.infoDivide2{
+    position: absolute;
+    margin-top: -15px;
+    width: 100%;
+    height: 200px;
+}
+
+.infoContent{
+    width: 100%;
+    margin-top: 170px;
+}
+
+#geysers{
+    float: left;
+    width: 450px;
+    height: 450px;
+    margin-top: 10px;
+    margin-left: 200px;
+    box-shadow: 0 0 10px black;
+}
+
+.geysers{
+    position: absolute;
+    float: left;
+    font-family: "Ribbons and banners";
+    font-size: 80px;
+    color: white;
+    margin-left: 275px;
+    line-height: 450px;
+    -webkit-transition: all .5s ease; /* Safari and Chrome */
+    -moz-transition: all .5s ease; /* Firefox */
+    -ms-transition: all .5s ease; /* IE 9 */
+    -o-transition: all .5s ease; /* Opera */
+    transition: all .5s ease;
+}
+
+.geysers:hover{
+    -webkit-transform:scale(1.15); /* Safari and Chrome */
+    -moz-transform:scale(1.15); /* Firefox */
+    -ms-transform:scale(1.15); /* IE 9 */
+    -o-transform:scale(1.15); /* Opera */
+     transform:scale(1.15);
+}
+
+
+.wildlife{
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    line-height: 450px;
+    font-family: "Ribbons and banners";
+    font-size: 80px;
+    color: white;
+    text-align: center;
+    margin-left: 760px;
+    -webkit-transition: all .5s ease; /* Safari and Chrome */
+    -moz-transition: all .5s ease; /* Firefox */
+    -ms-transition: all .5s ease; /* IE 9 */
+    -o-transition: all 5s ease; /* Opera */
+    transition: all .5s ease;
+    z-index: 1;
+}
+
+.wildlife:hover{
+    -webkit-transform:scale(1.15); /* Safari and Chrome */
+    -moz-transform:scale(1.15); /* Firefox */
+    -ms-transform:scale(1.15); /* IE 9 */
+    -o-transform:scale(1.15); /* Opera */
+     transform:scale(1.15);
+}
+#wildlife{
+    width: 450px;
+    height: 450px;
+    margin-top: 10px;
+    box-shadow: 0 0 10px black;
+    position: absolute;
+    margin-left: 110px;
+}
+.design{
+    margin-top: -40px;
+}
+
+.designed{
+    position: absolute;
+    width: 1432px;
+    margin-top: 400px;
+    background-color: tan;
+    height: 140px;
+    line-height: 140px;
+    font-family: "Neuton-Light";
+    font-size: 25px;
+    text-align: center;
+}
+
+.designed1{
+    position: absolute;
+    width: 1420px;
+    text-align: center;
+    background-color: tan;
+    height: 125px;
+    line-height: 125px;
+    font-family: "Neuton-Light";
+    font-size: 25px;
+}
+
+#myLogo{
+    width: 200px;
+    height: 120px;
+    position: absolute;
+    margin-top: 410px;
+    margin-left: 850px;
+    
+}
+
+#myLogo2{
+    width: 200px;
+    height: 120px;
+    position: absolute;
+    margin-left: 870px;
+    margin-top: 5px;
+}
+#logo2{
+  float: left;
+    width: 250px;
+    margin-left: -11px;
+    height: 180px;
+    margin-top: -25px;
+}
+
+
+#homeLink{
+    width: 175px;
+}
+
+.photo2{
+    width: 100%;
+    height: 740px;
+    z-index: -1001;
+    position: relative;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 0px;
+    background-image: url(../images/intropic.jpg);
+    box-shadow: 0 0 50px black;
+    opacity: .8;
+}
+
+#wildintro{
+    font-family: "Ribbons and banners";
+     color: white;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    line-height: 725px;
+    font-size: 150px;
+    z-index: 1;
+}
+
+.hidden{
+    display: none;
+}
+
+.photo3{
+    width: 96%;
+    height: 740px;
+    z-index: -1001;
+    left: 2%;
+    position: relative;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 0px;
+    background-image: url(../images/bears.jpg);
+    box-shadow: 0 0 50px white;
+}
+
+.photo4{
+    width: 96%;
+    height: 740px;
+    z-index: -1001;
+    left: 2%;
+    position: relative;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 0px;
+    background-image: url(../images/wolves.jpg);
+    box-shadow: 0 0 50px white;
+}
+
+.photo5{
+    width: 96%;
+    height: 740px;
+    z-index: -1001;
+    left: 2%;
+    position: relative;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 0px;
+    background-image: url(../images/elk.jpg);
+    box-shadow: 0 0 50px white;
+}
+
+.photo6{
+    width: 96%;
+    height: 740px;
+    z-index: -1001;
+    left: 2%;
+    position: relative;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 0px;
+    background-image: url(../images/birds.jpg);
+    box-shadow: 0 0 50px white;
+}
+
+.divider3{
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    box-shadow: 0 0 50px white;
+}
+
+.animalContent{
+    width: 1420px;
+    height: 740px;
+    background-color: rgba(255, 255, 255, 0.7);   
+    position: absolute;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 0px;
+    box-shadow: 0 0 50px black;
+    margin-top: -739px;
+}
+
+.aniTitle{
+    font-family: "Demolition Crack Shadow";
+    position: absolute;
+    margin-left: 240px;
+    margin-top: 120px;
+    font-size: 30px;
+}
+
+
+.animalText{
+    margin-left: 260px;
+    margin-top: 200px;
+    font-size: 18px;
+    
+    width: 1000px;
+}
+
+dd{
+    padding: 5px 0px;
+    font-family: "Timeless";   
+}
+dt {
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: underline;
+    font-family: "BEBAS"
+}
+
+.socialMedia{
+    position: absolute;
+    margin-top: 35px;
+    z-index: 1;
+    margin-left: 70px;
+}
+
+.socialMedia1{
+    position: absolute;
+    margin-top: 435px;
+    z-index: 1;
+    margin-left: 70px;
+}
+.social a{
+    width: 50px;
+    height: 50px; 
+}
+.social{
+    width:50px;
+    height: 50px;
+}
